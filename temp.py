@@ -64,10 +64,9 @@ a, b = 1, 4
 a, b = b, a
 print(f"{a}, {b}")
 
-test = [1,2,3,4,5]
-print(test[4:-1])
-if([]):
-    print("[]=true")
+test = [[1,2,3,4,5]]
+test.extend([[6,7,8,9,10],[11,12,13,14,15]])
+print(test)
 
 
 
