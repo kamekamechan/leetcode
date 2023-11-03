@@ -70,8 +70,14 @@ print(test)
 
 test.extend([2] or None)
 print(test)
+a = 2
+if([] is None):
+    print("help")
 
-print(0 or None)
+string = "test"
+print(string[:0])
 
+string = string.replace("t", "T", 1)
+print(string)
 
 
